@@ -1,0 +1,162 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #050505;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav .link-menu:hover {
+    color: #80BB2d;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .category-menu{
+    margin-right: 80px;
+    font-size: 30px;
+  }
+  .close-icon:hover{
+    color: #80BB2d;
+  }
+  .cat-menu{
+    margin-top: 17px;
+  }
+  .cat-menu div{
+    padding:10px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .link-menu {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(43, 42, 42, 0.164);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .link-menu {
+    margin: 0px 10px;
+  }
+  #dark-bg{
+      display: none;
+      position: fixed;
+      z-index: 101;
+      background:rgb(0, 0, 0,0.4);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  .cat-links{
+    text-align: center;
+  }
+  .cat-links a{
+    font-size:16px ;
+    margin: 0;
+    padding-left: 0;
+  }
+  .cat-links a:hover{
+    color: #80BB2d;
+  }
+  .cat1-extra{
+      display: none;
+      position: fixed;
+      z-index: 102;
+      top: 75px;
+      left: 280px;
+      width: 800px;
+      height: 350px;
+      background: rgb(255, 255, 255);
+      padding: 20px 40px;
+      border-left: 1px solid rgba(0, 0, 0, 0.103);
+  }
+  #cat1-menu:hover .cat1-extra{
+    display: block;
+  }
+  .cat2-extra{
+    border-left: 1px solid rgba(0, 0, 0, 0.103);
+    display: none;
+    position: fixed;
+    z-index: 102;
+    left: 280px;
+    top: 110px;
+    width: 700px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+}
+#cat2-menu:hover .cat2-extra{
+    display: block;
+  }
+.cat3-extra{
+    display: none;
+    position: fixed;
+    z-index: 102;
+    top: 158px;
+    left: 280px;
+    width: 500px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-left: 1px solid rgba(0, 0, 0, 0.103);
+}
+#cat3-menu:hover .cat3-extra{
+    display: block;
+  }
+.cat4-extra{
+    display: none;
+    position: fixed;
+    z-index: 102;
+    top: 188px;
+    left: 280px;
+    width: 500px;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-left: 1px solid rgba(0, 0, 0, 0.103);
+}
+#cat4:hover .cat4{
+    display: block;
+  }
+  .header-hidden-search{
+    position: relative;
+  }
+  .hidden-search{
+    display: none;
+    border: 1px solid rgba(117, 115, 115, 0.555);
+    position: absolute;
+    right: 40px;
+    border-radius: 50px;
+    top: 5px;
+  }
+  .hamburger-menu{
+      position: absolute;
+  }
+  .main-ham-menu{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
