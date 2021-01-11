@@ -2362,8 +2362,8 @@ th, td {
 	text-align: left;
 	position: absolute;
 	top: 100%;
-	left: 0;
-	right: 0;
+	left: -18px;
+	right: -20px;
 	bottom: auto;
 	background-color: #fff;
 	z-index: 99999;
@@ -3688,6 +3688,8 @@ th, td {
 .header-mobile .kreen-dropdown .block-search {
 	position: absolute;
 	top: 100%;
+	left: 0;
+	right: 0;
 	bottom: auto;
 	padding: 0 10px 10px;
 	-webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.01);
@@ -11956,9 +11958,12 @@ footer .kreen-listitem.style-04 li {
 	position: relative;
 }
 /*.kreen-newsletter.style-01*/
-.kreen-newsletter.style-01 .newsletter-inner {
-	text-align: center;
+@media (min-width: 768px) {
+	.kreen-newsletter.style-01 .newsletter-inner {
+		text-align: center;
+	}
 }
+
 .kreen-newsletter.style-01 .title {
 	font-size: 14px;
 	font-weight: 600;
