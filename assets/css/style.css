@@ -2360,6 +2360,26 @@ th, td {
 }
 .kreen-dropdown .block-search {
 	text-align: left;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	bottom: auto;
+	background-color: #fff;
+	z-index: 99999;
+	opacity: 0;
+	visibility: hidden;
+	padding: 10px 10px;
+	-webkit-transition: opacity 0.25s ease 0s;
+	-moz-transition: opacity 0.25s ease 0s;
+	-o-transition: opacity 0.25s ease 0s;
+	transition: opacity 0.25s ease 0s;
+	-webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.01);
+    -moz-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.01);
+    
+}
+/* .kreen-dropdown .block-search {
+	text-align: left;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -2374,7 +2394,7 @@ th, td {
 	-moz-transition: opacity 0.25s ease 0s;
 	-o-transition: opacity 0.25s ease 0s;
 	transition: opacity 0.25s ease 0s;
-}
+} */
 .kreen-dropdown ~ .kreen-dropdown-close {
 	position: fixed;
 	z-index: 999999;
@@ -2396,12 +2416,16 @@ th, td {
 .kreen-dropdown ~ .kreen-dropdown-close:hover {
 	color: #80b82d;
 }
-.kreen-dropdown.open .block-search,
+/* .kreen-dropdown.open .block-search,
 .kreen-dropdown.open ~ .kreen-dropdown-close {
 	opacity: 1;
 	visibility: visible;
+} */
+.kreen-dropdown.open .block-search {
+	opacity: 1;
+	visibility: visible;
 }
-.kreen-dropdown ~ .kreen-dropdown-close::before,
+/* .kreen-dropdown ~ .kreen-dropdown-close::before,
 .kreen-dropdown ~ .kreen-dropdown-close::after {
 	border-bottom: 2px solid;
 	content: "";
@@ -2423,10 +2447,10 @@ th, td {
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-}
+} */
 .kreen-dropdown .block-search-form {
 	max-width: 100%;
-	width: 1000px;
+	width: 862px;
 	margin-left: auto;
 	margin-right: auto;
 	display: table;
@@ -2435,10 +2459,19 @@ th, td {
 	display: table-cell;
 	vertical-align: middle;
 }
-.kreen-dropdown .kreen-live-search-form .txt-livesearch {
+/* .kreen-dropdown .kreen-live-search-form .txt-livesearch {
 	border-bottom: 1px solid #bababa;
 	font-size: 22px;
 	border-radius: 8px;
+} */
+.kreen-dropdown .kreen-live-search-form .txt-livesearch {
+	background-color: #efefef;
+    border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px 0 60px;
+    border: none;
+    font-size: 15px;
 }
 .kreen-dropdown .kreen-live-search-form .suggestion-search {
 	font-size: 35px;
@@ -2454,12 +2487,23 @@ th, td {
 	font-size: 22px;
 	color: #000;
 }
-.kreen-dropdown .block-search-form .btn-submit {
+/* .kreen-dropdown .block-search-form .btn-submit {
 	background-color: transparent;
 	color: #000;
 	font-size: 22px;
 	height: 56px;
 	line-height: 56px;
+} */
+.kreen-dropdown .block-search-form .btn-submit {
+	position: absolute;
+    top: 1px;
+    left: 0;
+    background-color: transparent;
+    color: #333;
+    font-size: 21px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
 }
 .kreen-dropdown .block-search-form .btn-submit:hover {
 	color: #80b82d;
