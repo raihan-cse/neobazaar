@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -200,12 +202,14 @@
 }
 
 .footer-logo img {
-  width: 190px;
+  width: 215px;
 }
 
 .logo-wapper p {
   padding: 16px 0 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 @media (min-width: 1024px) {
@@ -219,8 +223,9 @@
 }
 
 .link-wapper h3 {
-  font-family: 'Pacifico', sans-serif;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
   margin-bottom: 16px;
 }
 
@@ -234,18 +239,31 @@
 
 .link-wapper ul li a {
   font-size: 12px;
-  font-weight: 500;
   text-transform: uppercase;
   display: block;
   color: #666666;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .link-wapper ul li a:hover {
   color: #80b82d;
 }
 
-/* blog single page */
+.footer .kreen-newsletter.style-01 .subtitle {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
 
+.footer .kreen-newsletter.style-01 .desc {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
+
+/* blog single page */
 .blog-post-loop {
   margin-bottom: 50px;
 }
@@ -615,6 +633,85 @@
   height: 10px;
 }
 
+.hovered-social-icons .woodmart-social-icons:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: rgba(0,0,0,0.9);
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+}
+
+.hovered-social-icons:hover .woodmart-social-icons {
+  opacity: 1;
+  visibility: visible;
+}
+
 .woodmart-social-icons .woodmart-social-icon {
   display: inline-block;
+  line-height: initial;
+}
+
+.woodmart-social-icons .woodmart-social-icon a {
+  display: inline-block;
+  font-size: 0;
+  text-align: center;
+  border-radius: 50%;
+  padding: 6px;
+  color: #fff;
+}
+
+.woodmart-social-icons .woodmart-social-icon i {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.woodmart-entry-content {
+  line-height: 1.7;
+}
+
+.blog-post-loop .woodmart-entry-content .read-more-section {
+  margin-bottom: 0;
+  margin-top: 20px;
+  line-height: 1;
+}
+
+.read-more-section a {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .3px;
+  border-bottom: none;
+  color: #83b735;
+}
+
+.read-more-section a:after {
+  content: "\f10c";
+  font-family: woodmart-font;
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  opacity: 0;
+  font-size: 14px;
+  font-weight: 600;
+  height: 5px;
+  line-height: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  transition: opacity .35s ease;
+  -webkit-transition: opacity 0.35s ease;
+}
+
+.read-more-section a:hover:after {
+  opacity: 1;
+  animation: next-animate 1s infinite;
+  -webkit-animation: next-animate 1s infinite;
 }

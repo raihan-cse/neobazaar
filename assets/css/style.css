@@ -3571,9 +3571,10 @@ th, td {
 	display: inline-block;
 	vertical-align: middle;
 }
-.header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
+/* .header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
 	padding-left: 0;
-}
+} */
+
 /*.header.style-04*/
 .header.style-04 .header-search-mid {
 	text-align: center;
