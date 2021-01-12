@@ -18,6 +18,7 @@ function openNav() {
     document.getElementById("dark-bg").style.display = 'none';
   }
 
+  //header search click to expand 
   $(document).ready(function () {
     $(".cs-btn-submit").click(function() {
       $(".cs-txt-livesearch").toggleClass("sopen")
