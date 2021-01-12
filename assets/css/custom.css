@@ -192,7 +192,7 @@
 
 /* header logo */
 /* .header-logo img {
-  width: 84px;
+  width: 140px;
 } */
 
 /* --footer design start-- */
@@ -694,8 +694,8 @@
 }
 
 .read-more-section a:after {
-  content: "\f10c";
-  font-family: woodmart-font;
+  content: "\e632";
+  font-family: 'Pe-icon-7-stroke';
   position: absolute;
   left: 100%;
   bottom: 0;
@@ -715,3 +715,7 @@
   animation: next-animate 1s infinite;
   -webkit-animation: next-animate 1s infinite;
 }
+
+/* @keyframes next-animate {
+  0 {}
+} */
