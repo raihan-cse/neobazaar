@@ -189,14 +189,15 @@
   align-items: center;
 }
 
-
+/* =============================
+ design start for main index page
+ ================================ */
 /* header logo */
-/* .header-logo img {
+.header-logo img {
   width: 140px;
-} */
+}
 
 /* --footer design start-- */
-
 .logo-wapper {
   margin-bottom: 24px;
 }
@@ -260,6 +261,62 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
+
+/* ================================
+demo page common style 
+================================ */
+.demo-page .box-header-nav {
+  text-align: center;
+}
+
+.demo-page .box-header-nav .main-menu > .menu-item > a {
+  line-height: 48px;
+}
+
+
+/* =============================
+index2 
+============================= */
+.index2 .header.style-03 .header-logo img {
+  width: 140px;
+}
+
+
+
+/* =============================
+index3
+============================= */
+.index3 .header-logo img {
+  width: 84px;
+}
+.index3 .footer-logo img {
+  width: 72px;
+}
+.index3 .meta-dreaming a:hover {
+  color: #fb6103;
+}
+.index3 .slide-wrap .slide-info a::before {
+  border-color: #fb6103;
+}
+.index3 .slick-dots li button {
+  background-color: #fb6103;
+}
+.index3 .slick-dots li.slick-active button, .slick-dots li button:hover {
+  background-color: transparent;
+}
+
+.index3 .slick-dots li button:hover::before, .slick-dots li.slick-active button::before {
+  border-color: #fb6103;
+}
+
+.index3 .kreen-banner .button::before {
+  border-color: #fb6103;
+}
+
+.index3 .product-item.style-01 .group-button .add-to-cart:hover a, .product-item.style-01 .group-button .yith-wcwl-add-to-wishlist:hover a, .product-item.style-01 .group-button .compare-button:hover a, .product-item.style-01 .group-button .yith-wcqv-button:hover {
+  color: #fb6103;
+}
+
 
 
 
@@ -721,21 +778,6 @@
 } */
 
 
-/* index-tow header style */
-.header.style-03 .header-logo img {
-  width: 140px;
-}
-/* .header.style-03 .header-logo {
-  width: 300px;
-} */
-
-.box-header-nav {
-  text-align: center;
-}
-
-.box-header-nav .main-menu > .menu-item > a {
-  line-height: 48px;
-}
 
 
 /* header custom search */
@@ -778,3 +820,10 @@
     border: none;
     cursor: pointer;
 }
+
+
+.kreen-dropdown.index-two .block-search {
+  top: 182%;
+}
+
+
