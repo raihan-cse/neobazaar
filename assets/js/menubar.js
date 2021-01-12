@@ -17,3 +17,9 @@ function openNav() {
     document.getElementById("mySidenav-2").style.width = "0";
     document.getElementById("dark-bg").style.display = 'none';
   }
+
+  $(document).ready(function () {
+    $(".cs-btn-submit").click(function() {
+      $(".cs-txt-livesearch").toggleClass("sopen")
+    })
+  })

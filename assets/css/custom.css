@@ -301,11 +301,11 @@ index3
 .index3 .slick-dots li button {
   background-color: #fb6103;
 }
-.index3 .slick-dots li.slick-active button, .slick-dots li button:hover {
+.index3 .slick-dots li.slick-active button, .index3 .slick-dots li button:hover {
   background-color: transparent;
 }
 
-.index3 .slick-dots li button:hover::before, .slick-dots li.slick-active button::before {
+.index3 .slick-dots li button:hover::before, .index3 .slick-dots li.slick-active button::before {
   border-color: #fb6103;
 }
 
@@ -313,7 +313,7 @@ index3
   border-color: #fb6103;
 }
 
-.index3 .product-item.style-01 .group-button .add-to-cart:hover a, .product-item.style-01 .group-button .yith-wcwl-add-to-wishlist:hover a, .product-item.style-01 .group-button .compare-button:hover a, .product-item.style-01 .group-button .yith-wcqv-button:hover {
+.index3 .product-item.style-01 .group-button .add-to-cart:hover a, .index3 .product-item.style-01 .group-button .yith-wcwl-add-to-wishlist:hover a, .index3 .product-item.style-01 .group-button .compare-button:hover a, .index3 .product-item.style-01 .group-button .yith-wcqv-button:hover {
   color: #fb6103;
 }
 
@@ -784,7 +784,6 @@ index3
 .cs-header-search {
   display: inline-block;
   vertical-align: middle;
-  width: 292px;
 }
 
 .cs-form-search {
@@ -798,14 +797,20 @@ index3
 }
 
 .cs-inner .cs-txt-livesearch {
+  /* background-color: #efefef; */
+  border-radius: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 48px 0 16px;
+  border: none;
+  font-size: 15px;
+  width: 0;
+  transition: all .5s ease-in-out;
+}
+
+.cs-inner .cs-txt-livesearch.sopen {
   background-color: #efefef;
-    border-radius: 40px;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 60px 0 20px;
-    border: none;
-    font-size: 15px;
-    width: 100%;
+  width: 292px;
 }
 
 .cs-btn-submit {
