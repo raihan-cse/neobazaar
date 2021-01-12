@@ -719,3 +719,62 @@
 /* @keyframes next-animate {
   0 {}
 } */
+
+
+/* index-tow header style */
+.header.style-03 .header-logo img {
+  width: 140px;
+}
+/* .header.style-03 .header-logo {
+  width: 300px;
+} */
+
+.box-header-nav {
+  text-align: center;
+}
+
+.box-header-nav .main-menu > .menu-item > a {
+  line-height: 48px;
+}
+
+
+/* header custom search */
+.cs-header-search {
+  display: inline-block;
+  vertical-align: middle;
+  width: 292px;
+}
+
+.cs-form-search {
+  display: table-cell;
+  vertical-align: middle;
+  width: 292px;
+}
+
+.cs-form-content  {
+  position: relative;
+}
+
+.cs-inner .cs-txt-livesearch {
+  background-color: #efefef;
+    border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 60px 0 20px;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+.cs-btn-submit {
+  position: absolute;
+    top: 1px;
+    right: 0;
+    background-color: transparent;
+    color: #333;
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+}
