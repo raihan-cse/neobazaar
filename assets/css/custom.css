@@ -815,15 +815,43 @@ index3
 
 .cs-btn-submit {
   position: absolute;
-    top: 1px;
-    right: 0;
-    background-color: transparent;
-    color: #333;
-    font-size: 26px;
-    height: 40px;
-    line-height: 40px;
-    border: none;
-    cursor: pointer;
+  top: 1px;
+  right: 0;
+  background-color: transparent;
+  color: #333;
+  font-size: 26px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.cs-btn-close {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: transparent;
+  color: #333;
+  font-size: 32px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+}
+
+.cs-hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+}
+
+.cs-show {
+  opacity: 1;
+  visibility: visible;
 }
 
 

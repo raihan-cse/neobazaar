@@ -21,6 +21,16 @@ function openNav() {
   //header search click to expand 
   $(document).ready(function () {
     $(".cs-btn-submit").click(function() {
-      $(".cs-txt-livesearch").toggleClass("sopen")
+      $(".cs-txt-livesearch").addClass("sopen");
+      $(".cs-btn-close").addClass("cs-show");
+      $(".cs-btn-submit").addClass("cs-hide");
+    })
+
+    $(".cs-btn-close").click(function() {
+      $(".cs-txt-livesearch").removeClass("sopen");
+      $(".cs-btn-close").removeClass("cs-show");
+      $(".cs-btn-submit").removeClass("cs-hide");
     })
   })
+
+
