@@ -269,6 +269,23 @@
   font-weight: 600;
 }
 
+
+/* ===back to top=== */
+a.backtotop {
+  background-color: transparent;
+  border: 2px solid #80b82d;
+  bottom: 25px;
+}
+a.backtotop:hover {
+  background-color: #80b82d;
+}
+a.backtotop i {
+  color: #80b82d;
+}
+a.backtotop:hover > i {
+  color: #fff;
+}
+
 /* ================================
 demo page common style 
 ================================ */
@@ -378,8 +395,9 @@ index4
 
 .meta-dreaming.p-fixed {
   position: fixed;
-  top: 50%;
+  top: 40%;
   bottom: 50%;
+  /* transform:translateY(-50%); */
   right: 0;
   z-index: 9999;
 }
@@ -402,7 +420,8 @@ index4
 } */
 
 .meta-dreaming .block-dreaming .block-link .count {
-  background-color: #f17205;
+  /* background-color: #f17205; */
+  background-color: #008F4C;
 }
 
 .block-minicart .block-cart-link::before {
@@ -483,14 +502,16 @@ index4
 } */
 
 
-.index5 .header-logo img {
-  width: 140px;
+/* .index5 .header-logo img {
   margin-top: -8px
-}
+} */
 
 /* header user */
 .index5 .meta-dreaming .block-dreaming {
   padding-left: 25px;
+}
+.index5 .meta-dreaming.p-fixed .block-dreaming {
+  padding-left: 0;
 }
 
 
