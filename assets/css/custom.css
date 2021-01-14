@@ -14,7 +14,7 @@
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 18px;
   text-decoration: none;
   font-size: 25px;
   color: #050505;
@@ -30,13 +30,14 @@
   position: absolute;
   top: 10px;
   right: 25px;
+  left: 0;
   font-size: 36px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   font-weight: 600;
 }
 
 .category-menu {
-  margin-right: 80px;
+  margin-right: 58px;
   font-size: 30px;
   font-weight: 600;
 }
@@ -75,7 +76,7 @@
   margin: 0px 10px;
 }
 
-#dark-bg {
+/* #dark-bg {
   display: none;
   position: fixed;
   z-index: 101;
@@ -84,7 +85,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .cat-links {
   text-align: center;
