@@ -191,6 +191,11 @@
   align-items: center;
 }
 
+.header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
+	padding-left: 28px;
+}
+
+
 /* =============================
  design start for main index page
  ================================ */
@@ -335,6 +340,236 @@ index3
 .index3 .product-item.style-01 .group-button .add-to-cart:hover a, .index3 .product-item.style-01 .group-button .yith-wcwl-add-to-wishlist:hover a, .index3 .product-item.style-01 .group-button .compare-button:hover a, .index3 .product-item.style-01 .group-button .yith-wcqv-button:hover {
   color: #fb6103;
 } */
+
+
+
+/* ================================
+index4
+================================ */
+.index4 .header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
+  padding-left: 82px;
+}
+
+.index4 .header.style-03 .meta-dreaming .box-header-nav .main-menu > .menu-item:first-child {
+  padding-left: 25px;
+}
+.index4 .header.style-03 .meta-dreaming .box-header-nav .main-menu > .menu-item:last-child {
+  padding-right: 34px;
+}
+.index4 .box-header-nav .main-menu > .menu-item {
+  padding: 0 25px;
+}
+
+@media (max-width: 1499px) {
+  .index4 .box-header-nav .main-menu > .menu-item {
+    padding: 0 25px;
+  }
+}
+
+.index4 .meta-dreaming .block-dreaming {
+  padding-left: 25px;
+}
+
+/* .index4 .header.style-03 .header-logo {
+  text-align: left;
+} */
+
+
+
+.meta-dreaming.p-fixed {
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  right: 0;
+  z-index: 9999;
+}
+
+.meta-dreaming.p-fixed .block-minicart {
+  padding: 0;
+  background-color: #80b82d;
+  border-radius: 4px 0 0 4px;
+}
+
+.meta-dreaming.p-fixed .block-dreaming .block-link {
+  height: 52px;
+  line-height: 58px;
+  margin-right: 20px;
+  color:#fff;
+}
+
+/* .meta-dreaming.p-fixed .block-dreaming:hover .block-link {
+  color:#fff;
+} */
+
+.meta-dreaming .block-dreaming .block-link .count {
+  background-color: #f17205;
+}
+
+.block-minicart .block-cart-link::before {
+  background-color: transparent;
+}
+
+
+/* nav style change start */
+.meta-dreaming .box-header-nav {
+  display: inline-block;
+}
+
+/* static search box  */
+.index4 .cs-header-search {
+  display: inline-block;
+  vertical-align: middle;
+  width: 158px;
+}
+
+.index4 .cs-form-search {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index4 .cs-form-content  {
+  position: relative;
+}
+
+.index4 .cs-inner .cs-txt-livesearch {
+  background-color: #efefef;
+  border-radius: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 48px 0 16px;
+  border: none;
+  font-size: 15px;
+  width: 158px;
+}
+
+
+.index4 .cs-btn-submit {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: transparent;
+  color: #333;
+  font-size: 26px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* ======================================= */
+/* header main menu */
+.index5 .header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
+  padding-left: 82px;
+}
+
+.index5 .header.style-03 .meta-dreaming .box-header-nav .main-menu > .menu-item:first-child {
+  padding-left: 25px;
+}
+.index5 .header.style-03 .meta-dreaming .box-header-nav .main-menu > .menu-item:last-child {
+  padding-right: 32px;
+}
+
+/* .index5 .box-header-nav .main-menu > .menu-item {
+  padding: 0 25px;
+}
+
+@media (max-width: 1499px) {
+  .index5 .box-header-nav .main-menu > .menu-item {
+    padding: 0 25px;
+  }
+} */
+
+
+.index5 .header.style-03 .header-logo {
+  text-align: left;
+}
+.index5 .header-logo img {
+  width: 140px;
+  margin-top: -12px
+}
+
+/* header user */
+.index5 .meta-dreaming .block-dreaming {
+  padding-left: 25px;
+}
+
+
+/* header custom search */
+.cs-header-search {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cs-form-search {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cs-form-content  {
+  position: relative;
+}
+
+.cs-inner .cs-txt-livesearch {
+  border-radius: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px 0 16px;
+  border: none;
+  font-size: 15px;
+  width: 0;
+  transition: all .5s ease-in-out;
+}
+
+.cs-inner .cs-txt-livesearch.sopen {
+  background-color: #efefef;
+  width: 232px;
+  padding-right: 48px;
+}
+
+.cs-btn-submit {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: transparent;
+  color: #333;
+  font-size: 26px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.cs-btn-close {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: transparent;
+  color: #333;
+  font-size: 32px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+}
+
+.cs-hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+}
+
+.cs-show {
+  opacity: 1;
+  visibility: visible;
+}
+/* ============END============== */
 
 
 
@@ -799,79 +1034,7 @@ index3
 
 
 
-/* header custom search */
-.cs-header-search {
-  display: inline-block;
-  vertical-align: middle;
-}
 
-.cs-form-search {
-  display: table-cell;
-  vertical-align: middle;
-  width: 292px;
-}
-
-.cs-form-content  {
-  position: relative;
-}
-
-.cs-inner .cs-txt-livesearch {
-  /* background-color: #efefef; */
-  border-radius: 40px;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 48px 0 16px;
-  border: none;
-  font-size: 15px;
-  width: 0;
-  transition: all .5s ease-in-out;
-}
-
-.cs-inner .cs-txt-livesearch.sopen {
-  background-color: #efefef;
-  width: 292px;
-}
-
-.cs-btn-submit {
-  position: absolute;
-  top: 1px;
-  right: 0;
-  background-color: transparent;
-  color: #333;
-  font-size: 26px;
-  height: 40px;
-  line-height: 40px;
-  border: none;
-  cursor: pointer;
-  transition: opacity .5s;
-}
-
-.cs-btn-close {
-  position: absolute;
-  top: 1px;
-  right: 0;
-  background-color: transparent;
-  color: #333;
-  font-size: 32px;
-  height: 40px;
-  line-height: 40px;
-  border: none;
-  cursor: pointer;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s;
-}
-
-.cs-hide {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s;
-}
-
-.cs-show {
-  opacity: 1;
-  visibility: visible;
-}
 
 
 
