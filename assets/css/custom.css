@@ -459,7 +459,7 @@ index4
 
 
 
-/* ======================================= */
+/* ==================index5===================== */
 /* header main menu */
 .index5 .header.style-03 .box-header-nav .main-menu > .menu-item:first-child {
   padding-left: 82px;
@@ -483,12 +483,9 @@ index4
 } */
 
 
-.index5 .header.style-03 .header-logo {
-  text-align: left;
-}
 .index5 .header-logo img {
   width: 140px;
-  margin-top: -12px
+  margin-top: -8px
 }
 
 /* header user */
