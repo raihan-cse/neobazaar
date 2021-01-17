@@ -311,19 +311,25 @@
 
 .meta-dreaming.p-fixed .block-minicart {
   padding: 0;
-  background-color: #80b82d;
+  /* background-color: #008F4C; */
+  background-color: rgba(0, 143, 76, .9);
   border-radius: 4px 0 0 4px;
 }
 
 .meta-dreaming.p-fixed .block-dreaming .block-link {
-  height: 52px;
-  line-height: 58px;
-  margin-right: 20px;
+  width: 62px;
+  height: 62px;
+  line-height: 64px;
+  margin-right: 0;
   color:#fff;
+  text-align: left;
+  padding: 10px 10px 10px 8px;
 }
 
 .meta-dreaming .block-dreaming .block-link .count {
-  background-color: #008F4C;
+  background-color: #80b82d;
+  top: 10px;
+  right: 10px;
 }
 
 .block-minicart .block-cart-link::before {
