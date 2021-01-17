@@ -337,11 +337,15 @@
 }
 
 /* --footer design start-- */
+
 .logo-wapper {
   margin-bottom: 24px;
 }
+.logo-wapper .footer-logo {
+  margin-top: -18px;
+}
 
-.footer-logo img {
+.logo-wapper .footer-logo img {
   width: 215px;
 }
 
@@ -359,14 +363,14 @@
 }
 
 .link-wapper {
-  margin-bottom: 24px;
+  margin:24px 0 24px;
 }
 
 .link-wapper h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  margin-bottom: 16px;
+  margin:0 0 16px;
 }
 
 .link-wapper ul {
